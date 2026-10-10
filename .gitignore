@@ -1,0 +1,77 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Xcode user state (keep shared schemes and project definitions)
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+
+# SwiftPM, Xcode builds, archives, and generated test results
+.build*/
+.swiftpm/
+build/
+Build/
+DerivedData/
+*.xcarchive/
+*.xcresult/
+*.dSYM/
+*.dSYM.zip
+*.ipa
+*.app/
+*.appex/
+*.hmap
+*.o
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.dia
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.log
+
+# Local signing overrides (keep the generic setup example)
+Config/Local*.xcconfig
+Config/*.local.xcconfig
+!Config/Local.xcconfig.example
+*.mobileprovision
+*.provisionprofile
+*.developerprofile
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+*.keystore
+*.jks
+
+# Credentials and local environment settings
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.secrets.*
+credentials.json
+credentials.*.json
+
+# Editor and Python scratch files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/

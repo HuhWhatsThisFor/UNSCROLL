@@ -1,0 +1,9 @@
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SWIFT_VERSION = 6.0
+TARGETED_DEVICE_FAMILY = 1
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM =
+UNSCROLL_BUNDLE_ID = org.unscroll.app
+UNSCROLL_APP_GROUP = group.org.unscroll.app
+// Override identifiers and team locally; this file is ignored by git.
+#include? "Local.xcconfig"
